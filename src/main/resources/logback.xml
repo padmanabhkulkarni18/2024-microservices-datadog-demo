@@ -17,7 +17,7 @@
 <!--    &lt;!&ndash; Define the appender &ndash;&gt;-->
 <!--    <appender name="DATADOG_HTTP" class="net.logstash.logback.appender.LoggingEventAsyncDisruptorAppender">-->
 <!--        <encoder class="net.logstash.logback.encoder.LogstashEncoder" />-->
-<!--        <endpointUrl>https://http-intake.logs.datadoghq.com/v1/input/136da8b45337bfaff6b8a31b3cb33e60</endpointUrl>-->
+<!--        <endpointUrl>https://http-intake.logs.datadoghq.com/v1/input/API_KEY</endpointUrl>-->
 <!--        <httpClientClass>ch.qos.logback.core.net.ssl.HttpsURLConnectionFactory</httpClientClass>-->
 <!--    </appender>-->
 
